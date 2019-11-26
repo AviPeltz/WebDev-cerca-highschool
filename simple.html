@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>🚀SIMPLE</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--0000000000000-->
+    <style type="text/css"> 
+    .navbar{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      font-size: 12px;
+      letter-spacing: 2px;
+    } 
+    body{
+      font-family: sans-serif;
+      font-weight: bolder;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+
+    .background-wrap{
+      position: fixed;
+      z-index: -1000;
+      width: 100%;
+      height:100%;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+    }
+    #video-bg-elem{
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 100%; 
+      min-width:100%;
+    }
+    p.anim{
+    margin: 10px 0 0 10px;
+    font-size: 40pt;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation-delay: 0;
+    animation: type 4s steps(60, end); 
+    }
+    p.pre{
+      margin: 10px 0 0 10px;
+      font-size: 60pt;
+    }
+
+    p.anim:nth-child(2){
+      animation: type2 8s steps(60, end);
+    }
+
+        
+
+    @keyframes type{ 
+      from { width: 0; } 
+    } 
+
+    @keyframes type2{
+      0%{width: 0;}
+      50%{width: 0;}
+      100%{ width: 100; } 
+    } 
+    /* ----------- iPhone 4 and 4S ----------- */
+
+
+    </style>
+  </head>
+  <body>
+    <!--Navigation Menu-->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="simple.html">Avi</a>
+        </div>
+        <div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="webout.html">ABOUT</a></li>
+            <li><a href="gap">PROJECTS</a></li>
+            <li><a href="contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navigation Menu End-->
+    <div class="background-wrap">
+    <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+      <source src="video copy.mp4" type="video/mp4">
+        Video not supported
+    </video>
+  </div>
+   <!--Animation-->
+    <p class="pre">HELLO I'M AVI,</p>
+    <p class="anim">AND THIS IS MY WEBSITE!</p>
+    
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
